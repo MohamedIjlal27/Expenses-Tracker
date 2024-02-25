@@ -9,7 +9,8 @@ class ExpencesTracker extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
-        elevation: 0,
+        elevation: 10,
+        shadowColor: Colors.black,
         title: const Text(
           "Expences Tracker",
           style: TextStyle(fontWeight: FontWeight.w400, fontSize: 25),
